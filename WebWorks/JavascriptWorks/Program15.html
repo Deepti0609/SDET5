@@ -1,0 +1,48 @@
+<html>
+    <head>
+         <script type="text/javascript">
+         function validateUName(){
+             uname = document.userform.uname.value;
+             console.log(uname);
+             var msg = "";
+
+             if(uname.length == 0){
+                 msg="Please Enter Name"
+             }else if(uname.charAt(0)==" "){
+                 msg = " Please dont start name with space"
+             }else if(uname.length < 6){
+                 msg = "User name min chars are 6"
+             }
+
+             document.getElementById("unameErr").innerHTML = msg;
+         }
+
+         function validatePassword(){
+
+             var msg ="";
+             var pass = document.userform.pwd.value
+             if(pass.length==0){
+                 msg = "Sorry invalid password"
+             }
+
+             document.getElementById("pwdErr").innerHTML = msg;
+
+         }
+
+         </script>
+    </head>
+
+    <body bgcolor="cyan">
+        <form name ="userform">
+            Enter User name <input type="text" name ="uname"
+                    onblur="validateUName()"/><div id ="unameErr" style="color:red"></div>
+            <br/>
+            Enter Password <input type="password" name ="pwd"
+                    onblur="validatePassword()" /><div id ="pwdErr" style="color:red"></div>
+            <br/>
+
+            <input type="submit"/>
+        </form>
+        </body>
+
+</html>

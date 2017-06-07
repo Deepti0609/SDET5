@@ -1,0 +1,20 @@
+<html>
+    <head>
+         
+    </head>
+
+    <body bgcolor="cyan">
+        <p> FANNIEMAE TESTING</p>
+        <script type="text/javascript">
+        var ePara = document.getElementsByTagName('p')[0];
+        var boldElement = document.createElement("b");
+        var textElement = document.createTextNode("New Text");
+        boldElement.appendChild(textElement);
+
+        //document.body.appendChild(boldElement);
+        document.body.insertBefore(boldElement,ePara);
+        </script>
+
+        </body>
+
+</html>

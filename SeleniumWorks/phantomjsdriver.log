@@ -1,0 +1,17 @@
+[INFO  - 2017-06-07T20:15:07.123Z] GhostDriver - Main - running on port 32692
+[INFO  - 2017-06-07T20:15:07.450Z] Session [00077e50-4bbe-11e7-a33d-6b4369ce0727] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-07T20:15:07.450Z] Session [00077e50-4bbe-11e7-a33d-6b4369ce0727] - page.customHeaders:  - {}
+[INFO  - 2017-06-07T20:15:07.450Z] Session [00077e50-4bbe-11e7-a33d-6b4369ce0727] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-07T20:15:07.451Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 00077e50-4bbe-11e7-a33d-6b4369ce0727
+[ERROR - 2017-06-07T20:15:12.895Z] Session [00077e50-4bbe-11e7-a33d-6b4369ce0727] - page.onError - msg: sf/error:Script error.
+onError=%22NA%22
+source=%22%22
+lineno=%220%22
+colno=%220%22
+msg=%22Script%20error.%22
+[ERROR - 2017-06-07T20:15:12.895Z] Session [00077e50-4bbe-11e7-a33d-6b4369ce0727] - page.onError - stack:
+  A (https://a.travel-assets.com/datacapture/2/js/cl.js:25)
+[ERROR - 2017-06-07T20:15:15.695Z] Session [00077e50-4bbe-11e7-a33d-6b4369ce0727] - page.onError - msg: Facebook Pixel Error: ReferenceError: Can't find variable: Set
+[ERROR - 2017-06-07T20:15:15.695Z] Session [00077e50-4bbe-11e7-a33d-6b4369ce0727] - page.onError - stack:
+  fc (https://connect.facebook.net/en_US/fbevents.js:24)
+[INFO  - 2017-06-07T20:15:35.250Z] ShutdownReqHand - _handle - About to shutdown

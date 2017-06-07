@@ -1,0 +1,26 @@
+  <html>
+    <head>
+        <script type="text/javascript">
+            function display(x){
+                console.log("Display with 1 param called..")
+                console.log(x);
+            }
+                function display(){
+                    console.log("Display with no param called..")
+
+                    for(i=0;i<display.arguments.length;i++){
+                        console.log(display.arguments[i]);
+                    }
+
+
+                }
+        
+        </script>
+
+    </head>
+
+    <body>
+      <input type="button" onclick="display('hello','hi','how','test')" value="callme"/>
+        
+    </body>
+ </html>

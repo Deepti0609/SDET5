@@ -1,0 +1,33 @@
+<html>
+    <head>
+         <script type="text/javascript">
+         function fnGetcolor(){
+             var ele = document.body;
+
+             for (x=0;x<ele.attributes.length;x++){
+                 console.log(ele.attributes[x].nodeName);
+                 console.log(ele.attributes[x].nodeValue);
+
+             }
+         }
+
+             function changecolor(val){
+                 document.body.setAttribute("bgcolor",val);
+             }
+
+         
+           
+            </script>
+    </head>
+
+    <body bgcolor="cyan">
+        <h1>This is sample text </h1>
+        <input type="button" onclick="fnGetcolor()" value="GetColor"/>
+
+        <hr/>
+        <input type ="button" onmouseover="changecolor('blue')" value="Blue"/>
+        <input type ="button" onmouseover="changecolor('pink')" value="Pink"/>
+        <input type ="button" onmouseover="changecolor('lightblue')" value="LightBlue"/>
+        </body>
+
+</html>

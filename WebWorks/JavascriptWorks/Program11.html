@@ -1,0 +1,36 @@
+<html>
+    <head>
+         <script type="text/javascript">
+            function fn1(){
+                 
+        obj = document.getElementsByTagName('p')[0]
+        console.log(obj);
+        console.log(obj.firstChild.nodeValue);
+        console.log(obj.firstChild.nodeName);
+
+        console.log("----------------------------------------")
+        scriptObj = document.getElementsByTagName("script")[0];
+        console.log(scriptObj.firstChild.nodeValue)
+            }
+
+            function fn2(){
+                document.write("hello world")
+            }
+
+            function fn3(){
+                var name = prompt("Enter your name");
+                document.getElementById("mydiv").innerHTML = "<h1> Your Name is " + name +"</h1>";
+
+            }
+            </script>
+    </head>
+
+    <body>
+        <p> Hi I am Paragraph </p>
+        <div id="mydiv"></div>
+        <input type="button" onclick="fn1()" value="click1"/>
+        <input type="button" onclick="fn2()" value="click2"/>
+        <input type="button" onclick="fn3()" value="call div"/>
+        </body>
+
+</html>

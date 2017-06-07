@@ -1,0 +1,29 @@
+  <html>
+    <head>
+        <script type="text/javascript">
+            function first(){
+                val1 = 100;
+                //if prefixed with var it becomes local
+                var val2 = 200;
+
+                console.log("Val1 in first" +val1)
+                console.log("Val2 in first" +val2)
+            }
+        
+        function second(){
+                console.log("Val1 in second" +val1)
+                console.log("Val2 in second" +val2)
+            }
+        </script>
+
+    </head>
+
+    <body>
+       <script type="text/javascript">
+           first();
+           second(); 
+        
+        </script>
+        
+    </body>
+ </html>

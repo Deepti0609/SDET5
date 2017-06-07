@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function fnArray(){
+            arr = new Array(3);
+
+            arr[0] =100
+            arr[1] = 200
+            arr[2] = 300
+            arr[3] = new Object();
+
+
+            console.log(arr);
+            console.log(arr.length)
+
+            for(temp in arr){
+                console.log(arr[temp])
+            }
+        }
+        function fnArray1(){
+            arr = new Array ("sun","mon","tue","wed")
+            console.log(arr)
+
+            arr.push("thu");
+            console.log(arr);
+
+            arr.pop();
+            console.log(arr);
+
+            arr.unshift("SAT");
+            console.log(arr);
+
+            arr.shift();
+            console.log(arr);
+
+            arr.splice(1,0,"HELLO","TEST"); // first variable is the position and second is the number of field to be deleted
+            console.log(arr);
+
+            arr.splice(2,0,"HI");
+            console.log(arr);
+
+            arr.splice(2,4,"MON");
+            console.log(arr);
+
+        }
+        </script>
+
+    </head>
+
+    <body>
+        <script type="text/javascript">
+       // fnArray();
+        fnArray1();
+        </script>
+       
+           </body>
+
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<loans>
+	<loan id="101">
+	 <fname>Harry</fname>
+	 <lname>Larry</lname>
+	 <address>
+	 <hno>21022</hno>
+	 <strtnme> Potomac Trail</strtnme>
+	 <st>VA</st>	 
+	 </address>
+	 </loan>
+    <loan id="102">
+	 <fname>Ran</fname>
+	 <lname>San</lname>
+	 <address>
+	 <hno>21023</hno>
+	 <strtnme> Ashtree</strtnme>
+	 <st>VA</st>	 
+	 </address>
+	 </loan>
+
+</loans>

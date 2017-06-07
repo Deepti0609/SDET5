@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script type="text/javascript">
+       function funAddNumbers(){
+           //by default prompt will return the String value
+           //to as integer we have to do parseInt
+           val=0;
+           res=0;
+           do{
+               res=res + val
+           } while(val =parseInt(prompt("Enter Number ","0")));
+           
+          
+           alert("Result: "+ res);
+
+              }
+        </script>
+
+    </head>
+
+    <body>
+        <input type="button" onclick="funAddNumbers()" value="Add "/>
+       
+           </body>
+
+</html>

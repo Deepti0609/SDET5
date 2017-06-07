@@ -1,0 +1,40 @@
+  <html>
+    <head>
+        
+        <script type="text/javascript">
+        function callme(){
+       S="abc";
+        I=123;
+        console.log(S+I); 
+        B=true;
+        console.log(S+B); 
+        console.log(B+1); 
+        console.log(5+154e-2 +" kgs");
+        console.log("Rs." +5+154e-2 );
+        console.log("34"==34);
+        console.log(1<".23");
+        console.log(10*"55");
+
+        console.log(10*"55");
+        console.log(100=="100");//true
+        console.log(100==="100");//false
+        
+        if(isNaN(10/"abc"))
+        {
+            console.log("Please use only numbers")
+        }else{
+            console.log("You are good to go")
+        }
+        
+        
+        }
+        </script>
+
+    </head>
+
+    <body>
+      
+        <input type="button" onclick="callme()"
+            value="callme" />
+    </body>
+ </html>

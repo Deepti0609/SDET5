@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<library>
+	<book>
+		<chapter num="1">
+			<section>Chapter -1 -Section -1 </section>
+			<section>Chapter -1 -Section -2 </section>
+		</chapter>
+	</book>
+	<book>
+		<chapter num="2">
+			<section>Chapter -2 -Section -1 </section>
+			<section>Chapter -2 -Section -2 </section>
+			<section>Chapter -2 -Section -3 </section>
+		</chapter>
+	</book>
+</library>
+
+<!--https://www.freeformatter.com/xpath-tester.html#ad-output--> or <!--http://xmltoolbox.appspot.com/xpath_generator.html><!--xpath-evaluator>
+<!--XPath expression:/library/book[2]/chapter[1]/section[3]-->

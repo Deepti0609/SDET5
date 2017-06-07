@@ -1,0 +1,7 @@
+Hello=hello,hi,welcome
+Bye=bye,cya,see you, see you again
+Work=office
+Place=ground, area,home, residence,apartment
+Time=watch,clock,period
+Water=H20,lake,pond
+Test=Exam

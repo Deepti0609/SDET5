@@ -1,0 +1,9 @@
+Emp ID: 101
+Emp Name: Deepti
+Emp Salary: 200000.0
+Emp ID: 102
+Emp Name: Sushma
+Emp Salary: 300000.0
+Emp ID: 101
+Emp Name: Deepti
+Emp Salary: 100000.0
