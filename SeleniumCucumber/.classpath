@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="selenium"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SeleniumJars"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cucumber-reporting-0.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/cucumber-testng-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/softwares/selenium-java-3.4.0/cucumber jars/mockito-all-1.9.1-20110911.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
